@@ -11,6 +11,13 @@
 # Licensed MIT OR Apache-2.0, as the code.
 # Product and technology names retain their spelling. See docs/localization-zh-hans.md.
 
+# Channel panel context menu
+	Duplicate Channel	复制通道
+	New Channel…	新建通道…
+	New Spot Channel…	新建专色通道…
+	Split Channels	分离通道
+	Merge Channels…	合并通道…
+
 # Guide layout dialog
 
 # Custom print paper (#3820)

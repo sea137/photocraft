@@ -515,6 +515,20 @@ mod tests {
     }
 
     #[test]
+    fn simplified_chinese_translates_channel_context_menu() {
+        let zh = Lang::from_code("zh-hans").expect("zh-hans registered");
+        for (source, expected) in [
+            ("Duplicate Channel", "复制通道"),
+            ("New Channel…", "新建通道…"),
+            ("New Spot Channel…", "新建专色通道…"),
+            ("Split Channels", "分离通道"),
+            ("Merge Channels…", "合并通道…"),
+        ] {
+            assert_eq!(tr(zh, source), expected, "{source}");
+        }
+    }
+
+    #[test]
     fn simplified_chinese_covers_dynamic_shortcuts_and_layer_counts() {
         let zh = Lang::from_code("zh-hans").expect("zh-hans registered");
         assert!(zh.complete_menus(), "Simplified Chinese must participate in the coverage gates");
