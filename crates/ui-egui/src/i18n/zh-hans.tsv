@@ -3169,3 +3169,21 @@ curves	Smooth	平滑
 	Make Work Path…	建立工作路径…
 	Color Picker (Custom Canvas Color)	拾色器（自定画布颜色）
 	Color Picker (Stop Color)	拾色器（色标颜色）
+
+# Histogram panel statistics and its cache warning (#9575-era additions, missing from the v0.16.0 catalog)
+	Calculating…	计算中…
+	Click to refresh histogram with uncached data	点击以不使用缓存数据刷新直方图
+	Count:	计数：
+	Level:	色阶：
+	Percentile:	百分位：
+	Show Statistics	显示统计
+	Uncached Refresh	不使用缓存刷新
+	Source:	源：
+
+# Channel views (Preferences > Interface) and the updates dialog
+	Show Channels in Color	以彩色显示通道
+	Release Notes	发行说明
+	Update and Restart	更新并重启
+
+# New Document dialog: create the document with artboards
+	Artboards	画板
